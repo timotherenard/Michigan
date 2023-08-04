@@ -1,0 +1,47 @@
+body{
+	margin:0px;
+}
+
+h1{
+	display: inline-block;
+	width:40%;	
+	padding-left:5%;
+}
+
+
+nav{
+	display:inline-block;
+	float:right;
+	width:50%;
+}
+
+.headlink{
+	display:none;
+}
+img.hamburger{
+	width:20%;
+	float:right;
+	padding-top:15px;
+}
+
+
+header{
+	background-color:#FF00FF;
+}
+
+.responsivemenu{
+	display:block;
+	float:right;
+	width:30%;
+	padding-top:15px;
+}
+
+
+@media screen and (min-width: 700px) {
+  .headlink {
+    display: inline-block;
+  }
+  .hamburger{
+	display:none;
+  }
+}
