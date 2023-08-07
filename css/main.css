@@ -1,52 +1,45 @@
-body{
-	margin:0px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-h1{
-	display: inline-block;
-	width:40%;	
-	padding-left:5%;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
 
-
-nav{
-	display:inline-block;
-	float:right;
-	width:50%;
+.logo {
+  font-size: 24px;
 }
 
-.headlink{
-	display:none;
-}
-img.hamburger{
-	width:20%;
-	float:right;
-	padding-top:15px;
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-
-header{
-	background-color:#666666;
-	position:fixed;
+.menu li {
+  margin: 0 10px;
 }
 
-.responsivemenu{
-	display:block;
-	float:right;
-	width:30%;
-	padding-top:45px;
-	position:fixed;
+.menu a {
+  color: #fff;
+  text-decoration: none;
 }
 
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
 
-@media screen and (min-width: 1200px) {
-  .headlink {
-    display: inline-block;
-	padding-top:15px;
-	background-color:#FF0000;
-	color:green;
-  }
-  .hamburger{
-	display:none;
-  }
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
 }

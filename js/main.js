@@ -1,19 +1,12 @@
+const menuIcon = document.getElementById('menu-icon');
+const menu = document.getElementById('menu');
 
+menuIcon.addEventListener('click', () => {
+  menu.classList.toggle('show');
+});
 
-
-
-
-
-function resmenu(){
-	navmenu=document.getElementByID("divheadlink")
-	if navmenu.classname=="headlink"{
-		navmenu.className="responsivemenu";
-	}
-	else{
-		menuoff();
-	}
-}
-
-function menuoff(){
-	document.getElementsByClassName("responsivemenu")[0].className="headlink";
-}
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 768) {
+    menu.classList.remove('show');
+  }
+});
