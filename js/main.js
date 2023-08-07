@@ -4,8 +4,14 @@
 
 
 
-function menuon(){
-	document.getElementsByClassName("headlink")[0].className="responsivemenu";
+function resmenu(){
+	navmenu=document.getElementByID("divheadlink")
+	if navmenu.classname=="headlink"{
+		navmenu.className="responsivemenu";
+	}
+	else{
+		menuoff();
+	}
 }
 
 function menuoff(){
