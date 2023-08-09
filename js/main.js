@@ -1,12 +1,14 @@
-const menuIcon = document.getElementById('menu-icon');
-const menu = document.getElementById('menu');
 
-menuIcon.addEventListener('click', () => {
-  menu.classList.toggle('show');
-});
 
-window.addEventListener('resize', () => {
-  if (window.innerWidth > 768) {
-    menu.classList.remove('show');
-  }
-});
+function responsivemenu(){
+	if (document.getElementById("navigationbar").className=="passive"){
+	document.getElementById("navigationbar").className="active";
+	}
+	else{
+		document.getElementById("navigationbar").className="passive";
+	}
+}
+
+function menuoff(){
+	document.getElementById("navigationbar").className="passive";
+}
