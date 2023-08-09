@@ -10,7 +10,7 @@ header{
 
 h1{
 	float:left;
-	width:50%;
+	width:30%;
 	padding-left:15px;
 }
 
@@ -62,8 +62,8 @@ section{
 }
 
 #reunionmap{
-	width:60vw;
-	height:40vh;
+	width:90vw;
+	height:45vh;
 	margin-left:15px;
 }
 
@@ -71,17 +71,23 @@ section{
 
 
 @media screen and (min-width:800px){
+	header{
+		height:20vh;
+	}
+	
 	#burgermenu{
 		display:none;
 	}
 	#navigationbar {
 		display:inline-block;
-		width:45vw;
+		width:60vw;
 		clear:none;
 	}
 	#navigationbar a{
 		display:inline;
 	}
+	
+
 	.passive li{
 		display:inline-block;
 		padding-top:4vh;
@@ -92,20 +98,22 @@ section{
 		display:inline;
 		border:solid;
 		text-align:center;
-		padding:5px;
+		margin-right:1vw;
+		margin-left:1vw;
 		background-color:#b2a9ff;
 		text-decoration:none;
-		font-size:1.5em;
+		font-size:125%;
+
 	}
 	.passive li:last-of-type{
 		padding-right:5%;
 	}
 	#reunionmap{
-		width:40vw;
+		width:50vw;
 		float:right;
 		margin-top:15px;
 		margin-right:10px;
-		height:50vh;
+		height:60vh;
 	}
 
 	section{
