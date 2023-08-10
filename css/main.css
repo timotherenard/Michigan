@@ -12,6 +12,7 @@ h1{
 	float:left;
 	width:30%;
 	padding-left:15px;
+	margin-bottom:5vh;
 }
 
 nav{
@@ -40,7 +41,7 @@ nav{
 #navigationbar a{
 	display:block;
 	border:solid;
-	width:15vw;
+	width:20vw;
 	height:auto;
 	text-align:center;
 	padding:5px;
