@@ -60,6 +60,7 @@ nav{
 }
 
 section{
+	margin-left:15px;
 	padding:10px;
 	text-align:justify;
 }
@@ -70,7 +71,9 @@ section{
 	margin-left:15px;
 }
 
-
+nav #thispage{
+	border-color:#da2a2a;
+}
 
 
 @media screen and (min-width:800px){
