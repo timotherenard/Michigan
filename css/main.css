@@ -44,9 +44,11 @@ nav{
 	height:auto;
 	text-align:center;
 	padding:5px;
-	background-color:#b2a9ff;
+	background-color:#92d88c;
 	text-decoration:none;
 	clear:both;
+	color:#0d4d07;
+	border-color:#0d4d07;
 }
 	
 .active a{
