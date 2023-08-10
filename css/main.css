@@ -6,13 +6,13 @@ header{
 	width:100%;
 	background-color:#ffcc8f;
 	height:20vh;
+	
 }
 
 h1{
 	float:left;
 	width:30%;
 	padding-left:15px;
-	margin-bottom:5vh;
 }
 
 nav{
